@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: ghcr.io/rahul007-bit/pipline:latest
+          image: ghcr.io/rahul007-bit/pipline:1.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
